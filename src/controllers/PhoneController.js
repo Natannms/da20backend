@@ -1,4 +1,4 @@
-const database = require("../../sequelize/models");
+const database = require("../../models");
 class PhoneController {
   static async create(req, res) {
     const { contact_id, number } = req.body;

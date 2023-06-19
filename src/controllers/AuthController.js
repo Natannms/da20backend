@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const database = require("../../sequelize/models");
+const database = require("../../models");
 const secretKey = "secretKey";
 
 class AuthController {
