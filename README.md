@@ -43,4 +43,6 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 - Node.js: [https://nodejs.org](https://nodejs.org)
 - npm: Este já vem junto com a instalação do Node.js
 
-Verifique a versão do Node.js e do npm instalados em seu sistema:
+# SQL e LOGS
+Os dados SQL estão acessiveis em SQL/sqlite.db na raiz do projeto
+Os log sestão acessives no diretorio Logs
