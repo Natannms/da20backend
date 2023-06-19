@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/index.js"
+    "start": "nodemon ./src/index.js",
+    "migrate": "npx sequelize db:migrate",
+    "seed": "npx sequelize db:seed:all",
+    "setup": "npm run migrate && npm run seed"
   },
   "dependencies": {
     "@faker-js/faker": "^8.0.2",

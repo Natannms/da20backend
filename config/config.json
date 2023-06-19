@@ -1,10 +1,7 @@
 {
   "development": {
-    "username": "root",
-    "password": "root",
-    "database": "d20",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "sqlite",
+    "storage": "./SQL/database.sqlite"
   },
   "test": {
     "username": "root",

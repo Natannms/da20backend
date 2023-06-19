@@ -3,7 +3,7 @@ const database = require("../../sequelize/models");
 const fs = require('fs');
 const path = require('path');
 
-class UserController {
+class ContactController {
 
   static async create(req, res) {
     const { name, age, number } = req.body;
@@ -117,4 +117,4 @@ class UserController {
   }
 }
 
-module.exports = UserController;
+module.exports = ContactController;
